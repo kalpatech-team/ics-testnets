@@ -1,0 +1,7 @@
+{
+	"title": "Stop the kalpa chain",
+	"description": "This is a proposal to stop the kalpa chain on December 14th.",
+	"chain_id": "kalpa",
+	"stop_time": "2022-12-14T17:00:00.000000Z",
+	"deposit": "1uprov"
+}

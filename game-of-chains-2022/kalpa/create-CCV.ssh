@@ -1,0 +1,5 @@
+#!/bin/bash
+gaiad query provider consumer-genesis kalpa-1 -o json | jq . > ccv_kalpa.json
+curl -s https://raw.githubusercontent.com/kalpatech-team/ics-testnets/main/game-of-chains-2022/kalpa/kalpa-fresh-genesis.json | jq . > prep_kalpa.json
+jq -s '.[0].app_state.ccvconsumer = .[1] | .[0]' prep_kalpa.json ccv_kalpa.json > kalpa-genesis.json
+sha256sum kalpa-genesis.json

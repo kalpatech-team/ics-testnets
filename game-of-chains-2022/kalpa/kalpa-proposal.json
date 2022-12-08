@@ -1,0 +1,13 @@
+{
+	"title": "Create the kalpa chain - test case IBC timeout",
+	"description": "This proposal is to create the consumer chain \"kalpa\". Visit https://github.com/kalpatech-team/ics-testnets/tree/main/game-of-chains-2022/kalpa/ for details on this proposal's data and how to join the chain.\n\n Test cases of this chain:\n 1. IBC timeout (to check if we do not relay any package, provider chain will remove this consumer chain from his state)\n 2. Behaviour of double signing on this \"offline\" chain\n 3. The steps to revive the chain if step 1 will be executed as expected. \n\n\n\n\n Thank you!",
+	"chain_id": "kalpa",
+	"initial_height": {
+		"revision_height": 1,
+		"revision_number": 1
+	},
+	"genesis_hash": "108ccbbd873be810412ba11eab013b8462ba618569ec491403521d396d07e3b4",
+	"binary_hash": "5dc4f891398f811b9ea49abc14a083ec87072b50ed92b72079760f81369fd625",
+	"spawn_time": "2022-12-11T17:00:00.000000Z",
+	"deposit": "1uprov"
+}
